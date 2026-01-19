@@ -80,7 +80,37 @@ While working on this case study, I focused on:
 * Avoiding overengineering while maintaining production awareness
 
 ---
+## How to Run (Optional)
 
+This repository is primarily intended for conceptual demonstration.
+
+To run the illustrative Flask sample locally:
+
+1. Navigate to the source directory:
+
+   ```
+   cd src
+   ```
+2. Create and activate a virtual environment:
+
+   ```
+   python -m venv venv
+   source venv/bin/activate   # On Windows: venv\Scripts\activate
+   ```
+3. Install required dependencies:
+
+   ```
+   pip install flask flask_sqlalchemy
+   ```
+4. Run the application:
+
+   ```
+   python app.py
+   ```
+
+This setup is provided only to demonstrate local execution and is not meant to represent a full production environment.
+
+---
 ## Notes
 
 This submission is intended to showcase backend problem-solving skills,
